@@ -1,0 +1,38 @@
+/* Formatação inicial */
+body {
+    background: #323232;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+
+}
+.item {
+    background: lightblue;
+    margin: 5px;
+}
+/* Fim da formatação inicial */
+
+/* Display Flex */
+/* Todos os items filhos passarão a ter display:flex */
+/* Os elementos ocuparão o espaço do seu conteúdo */
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-item-1 {
+    flex: 1;
+}

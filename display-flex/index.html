@@ -12,15 +12,21 @@
     <h1>CSS: Trabalhando com Flexbox</h1>
 
     <h2>Display Block</h2>
+    <p>
+        Por padrão, os elementos assumem o comportamento de display:block. 
+        Isso fará com que os elementos ocupem 100% da linha.
+    </p>
     <section class="container">
         <div class="item">1</div>
         <div class="item">2</div>
         <div class="item">3</div>
         <div class="item">4</div>
     </section>
-
-    <!-- O display flex faz com que o tamanho do item se ajuste de acordo com o conteúdo -->
+    
     <h2>Display Flex</h2>
+    <p>
+        O display flex faz com que o tamanho do item se ajuste de acordo com o conteúdo.
+    </p>
     <section class="container flex">
         <div class="item">Teste 1</div>
         <div class="item">2</div>
@@ -28,9 +34,11 @@
         <div class="item">4</div>
     </section>
     
-    <!-- Por padrão, o display flex vai diminuir ao máximo o 
-        tamanho do item para caber no container, mas se não couber, ele vai exceder -->
     <h2>Display Flex</h2>
+    <p>
+        Por padrão, o display flex vai diminuir ao máximo o 
+        tamanho do item para caber no container, mas se não couber, ele vai exceder.
+    </p>
     <section class="container flex">
         <div class="item">Teste 1</div>
         <div class="item">Teste 2</div>
@@ -44,9 +52,11 @@
         <div class="item">Teste 10</div>
     </section>
 
-    <!-- Ao adicionar flexwrap: wrap, os itens quebrarão 
-        para a próxima linha ao atingir o espaço máximo no container-->
     <h2>Display Flex</h2>
+    <p>
+        Ao adicionar flexwrap: wrap, os itens quebrarão 
+        para a próxima linha ao atingir o espaço máximo no container.
+    </p> 
     <section class="container flex flex-wrap">
         <div class="item">Teste 1</div>
         <div class="item">Teste 2</div>
@@ -60,8 +70,11 @@
         <div class="item">Teste 10</div>
     </section>
 
-    <!-- Com o flex: 1, os itens vão ocupar todo o espaço do container -->
     <h2>Display Flex</h2>
+        <p>
+            Com o flex: 1, os itens vão tentar ocupar todo o espaço do container,
+            divindo o espaço igualmente entre si.
+        </p>
     <section class="container flex">
         <div class="item flex-item-1">Teste 1</div>
         <div class="item flex-item-1">Teste 2</div>

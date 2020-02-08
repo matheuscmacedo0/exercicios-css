@@ -12,6 +12,7 @@ h1 {
 h2 {
     color: #fff;
     text-align: center;
+    margin-top: 40px;
 }
 p {
     color: #fff;
@@ -26,6 +27,7 @@ p {
 .item {
     background: lightblue;
     margin: 5px;
+    text-align: center;
 }
 /* Fim da formatação inicial */
 
@@ -42,4 +44,28 @@ p {
 
 .flex-item-1 {
     flex: 1;
+}
+
+/* Flex-Direction */
+/* Os comportamentos de Flex-Direction devem ser aplicados no container */
+
+/* Exibe os itens do container em linha (comportamento padrão) */
+.row {
+    flex-direction: row;
+}
+
+/* Inverte direção de exibição dos itens do container (em linha)*/
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+/* Exibe os itens do container em coluna  */
+/* (normalmente usado em com media queries para ajustar responsividade em mobile). */
+.column {
+    flex-direction: column;
+}
+
+/* Inverte direção de exibição dos itens do container (em coluna)*/
+.column-reverse {
+    flex-direction: column-reverse;
 }

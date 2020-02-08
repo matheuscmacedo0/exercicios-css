@@ -63,6 +63,7 @@ p {
 /* (normalmente usado em com media queries para ajustar responsividade em mobile). */
 .column {
     flex-direction: column;
+    min-height: 200px;
 }
 
 /* Inverte direção de exibição dos itens do container (em coluna)*/
@@ -86,4 +87,34 @@ p {
 eles são quebrado para a linha de cima ao invés da linha debaixo. */
 .wrap-reverse {
     flex-wrap: wrap-reverse;
+}
+
+/* Justify-Content */
+/* É responsável pela disposição dos itens dentro do container */
+
+/* Os itens começam a ser exibidos no início do container (comportamento padrão) */
+.flex-start {
+    justify-content: flex-start;
+}
+/* Os itens começam a ser exibidos no final do container */
+.flex-end {
+    justify-content: flex-end;
+}
+
+/* Os itens são centralizados no container */
+.center {
+    justify-content: center;
+}
+
+/* Ocupa o tamanho inteiro do container, 
+adicionando um espaçamento igual entre os itens. */
+.space-between {
+    justify-content: space-between;
+}
+
+/* Ocupa o tamanho inteiro do container, 
+adicionando um espaçamento ao redor dos itens (apenas left e right, não afeta top e bottom).
+* Obs. O espaçamento de dentro (entre um item e outro) é o dobro do espaçamento das laterais finais. */
+.space-around {
+    justify-content: space-around;
 }

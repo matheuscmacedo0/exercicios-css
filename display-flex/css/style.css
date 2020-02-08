@@ -69,3 +69,21 @@ p {
 .column-reverse {
     flex-direction: column-reverse;
 }
+
+/* Flex-Wrap */
+/* É responsável pelo controle de quebra de linha no container */
+
+/* Os itens podem exceder o tamanho do container (comportamento padrão). */
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+/* Os itens quebram de linha ao chegar no tamanho limite do container (comportamento desejável).*/
+.wrap {
+    flex-wrap: wrap;
+}
+/* Quando oso item alcança o tamanho limite do container,
+eles são quebrado para a linha de cima ao invés da linha debaixo. */
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}

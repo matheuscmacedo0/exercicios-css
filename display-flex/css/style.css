@@ -20,6 +20,7 @@ p {
 }
 .container {
     max-width: 400px;
+    height: 300px;
     margin: 0 auto;
     border: 1px solid #fff;
 
@@ -28,6 +29,8 @@ p {
     background: lightblue;
     margin: 5px;
     text-align: center;
+    padding: 0 10px;
+    /* flex: 1; */
 }
 /* Fim da formatação inicial */
 
@@ -155,9 +158,41 @@ adicionando um espaçamento ao redor dos itens (apenas left e right, não afeta 
     padding-top: 30px;
 }
 
-/* Exemplo de alinhamento central com flexbox */
+/* 
+*******************************************
+Exemplo de alinhamento central com flexbox
+*******************************************
+*/
 .alinhamento-central {
     height: 400px;
     justify-content: center;
     align-items: center;
 }
+
+/* Align-content */
+
+.a-c-stretch {
+    align-content: stretch;
+}
+
+.a-c-flex-start {
+    align-content: flex-start;
+}
+
+.a-c-flex-end {
+    align-content: flex-end;
+}
+
+.a-c-center {
+    align-content: flex-end;
+}
+
+.a-c-space-between {
+    align-content: space-between;
+}
+
+.a-c-space-around {
+    align-content: space-around;
+}
+
+

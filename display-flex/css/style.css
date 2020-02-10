@@ -20,6 +20,12 @@ p {
 }
 .container {
     max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+
+}
+.container-maior {
+    max-width: 400px;
     height: 300px;
     margin: 0 auto;
     border: 1px solid #fff;
@@ -184,7 +190,7 @@ Exemplo de alinhamento central com flexbox
 }
 
 .a-c-center {
-    align-content: flex-end;
+    align-content: center;
 }
 
 .a-c-space-between {

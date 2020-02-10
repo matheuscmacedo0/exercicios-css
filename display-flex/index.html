@@ -10,6 +10,7 @@
 <body>
 
     <h1>CSS: Trabalhando com Flexbox</h1>
+    <h2>Overview</h2>
 
     <h2>Display Block</h2>
     <p>
@@ -34,7 +35,20 @@
         <div class="item">4</div>
     </section>
     
-    <h2>Display Flex</h2>
+    
+
+    <h2>Flex: 1</h2>
+        <p>
+            Com o flex: 1, os itens vão tentar ocupar todo o espaço do container,
+            divindo o espaço igualmente entre si.
+        </p>
+    <section class="container flex">
+        <div class="item flex-item-1">Teste 1</div>
+        <div class="item flex-item-1">Teste 2</div>
+        <div class="item flex-item-1">Teste 3</div>
+        <div class="item flex-item-1">Teste 3</div>
+    </section>
+    <br>
     <p>
         Por padrão, o display flex vai diminuir ao máximo o 
         tamanho do item para caber no container, mas se não couber, ele vai exceder.
@@ -52,7 +66,7 @@
         <div class="item">Teste 10</div>
     </section>
 
-    <h2>Display Flex</h2>
+    <h2>Flexwrap: wrap</h2>
     <p>
         Ao adicionar flexwrap: wrap, os itens quebrarão 
         para a próxima linha ao atingir o espaço máximo no container.
@@ -70,17 +84,7 @@
         <div class="item">Teste 10</div>
     </section>
 
-    <h2>Display Flex</h2>
-        <p>
-            Com o flex: 1, os itens vão tentar ocupar todo o espaço do container,
-            divindo o espaço igualmente entre si.
-        </p>
-    <section class="container flex">
-        <div class="item flex-item-1">Teste 1</div>
-        <div class="item flex-item-1">Teste 2</div>
-        <div class="item flex-item-1">Teste 3</div>
-        <div class="item flex-item-1">Teste 3</div>
-    </section>
+    
     
 </body>
 </html>

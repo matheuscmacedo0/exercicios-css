@@ -118,3 +118,39 @@ adicionando um espaçamento ao redor dos itens (apenas left e right, não afeta 
 .space-around {
     justify-content: space-around;
 }
+
+/* Flex-Stretch */
+/* Todos os items do container acompanham a altura do maior item */
+
+/*Faz com que os itens do container cresçam
+             de acordo com o item de maior altura (comportamento padrão). */
+.stretch {
+    align-items: stretch;
+}
+
+/* Faz com que os itens do container ocupem apenas o tamanho do seu conteúdo
+             e sejam exibidos no início do container (top) */
+.a-i-flex-start {
+    align-items: flex-start;
+}
+
+/* Faz com que os itens do container ocupem apenas o tamanho do seu conteúdo
+             e sejam exibidos no final do container (bottom). */
+.a-i-flex-end {
+    align-items: flex-end;
+}
+
+/* Faz com que os itens do container ocupem apenas o tamanho do seu conteúdo
+             e sejam exibidos no centro do container (center). */
+.a-i-center {
+    align-items: center;
+}
+
+/* Faz com que os itens do container ocupem apenas o tamanho do seu conteúdo
+             e sejam alinhados de acordo com a linha base da tipografia. */
+.a-i-baseline {
+    align-items: baseline;
+}
+.item-baseline {
+    padding-top: 30px;
+}

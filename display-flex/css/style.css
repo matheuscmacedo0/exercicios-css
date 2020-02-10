@@ -154,3 +154,10 @@ adicionando um espaçamento ao redor dos itens (apenas left e right, não afeta 
 .item-baseline {
     padding-top: 30px;
 }
+
+/* Exemplo de alinhamento central com flexbox */
+.alinhamento-central {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}

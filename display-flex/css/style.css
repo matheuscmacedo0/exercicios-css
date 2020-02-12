@@ -201,4 +201,26 @@ Exemplo de alinhamento central com flexbox
     align-content: space-around;
 }
 
+/* 
+****************************
+FLEX ITEM
+****************************
+Nesta seção são definidas as classes para estilizar os Flex Itens, 
+que são filhos diretos do Flex Container
 
+*/
+
+/* Define a habilidade de um flex item crescer. 
+Por padrão o valor é zero, dessa forma o flex item
+ocupa apenas o tamanho do seu conteúdo*/
+.grow0 {
+    flex-grow: 0;
+}
+/* Os itens tentarão ocupar 100% do espaço do container, respeitando as limitações */
+.grow1 {
+    flex-grow: 1;
+}
+
+.grow2 {
+    flex-grow: 2;
+}

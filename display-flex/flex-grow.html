@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Flexbox: flex-grow</title>
+</head>
+<body>
+    <h1>Flexbox: Trabalhando com Flew-Grow</h1>
+
+    <h2>Flew-Grow: 0</h2>
+        <p>
+            O flex item ocupa apenas o tamanho do seu conteúdo (comportamento padrão).
+        </p>
+    <section class="container flex">
+        <div class="item grow0">1</div>
+        <div class="item grow0">2</div>
+        <div class="item grow0">3</div>
+    </section>
+
+    <h2>Flew-Grow: 1</h2>
+        <p>
+            Os itens tentarão ocupar 100% do espaço do container, 
+            distribuindo igualmente entre os elementos.
+        </p>
+    <section class="container flex">
+        <div class="item grow1">1</div>
+        <div class="item grow1">2</div>
+        <div class="item grow1">3</div>
+    </section>
+
+    <h2>Flew-Grow: 2</h2>
+        <p>
+            Os itens se expandem duas vezes mais que os elementos com flex-grow: 1.
+        </p>
+    <section class="container flex">
+        <div class="item grow2">1</div>
+        <div class="item grow2">2</div>
+        <div class="item grow2">3</div>
+    </section>
+    
+    <h2>Flew-Grow: 1 // conteúdo largo</h2>
+        <p>
+            Os itens se expandem duas vezes mais que os elementos com flex-grow: 1.
+        </p>
+    <section class="container flex">
+        <div class="item grow1">1</div>
+        <div class="item grow1">Teste2Teste2</div>
+        <div class="item grow1">3</div>
+    </section>
+    
+    <h2>Flew-Grow: misturado</h2>
+        <p>
+            flex-grow: 0, flex-grow 1, flex-grow: 2.
+        </p>
+    <section class="container flex">
+        <div class="item grow0">1</div>
+        <div class="item grow1">2</div>
+        <div class="item grow2">3</div>
+    </section>
+
+</body>
+</html>
